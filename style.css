@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(104.76deg, #2D2800 -2.05%, #80761F 100%);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+}
+.header--image{
+    width: 80px;
+}
+.menu--header {
+    display: flex;
+    gap: 32px;
+}
+.menu--header-item {
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 2px 9px
+}
+.menu--header-item:hover {
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 1px 8px;
+}
+.body--left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+.body--left-div{
+    padding: 20px;
+    }
+.tittle--first {
+    font-family: 'Righteous', cursive;
+     color: #FFF;
+    font-weight: 400;
+    font-size: 64px;
+    padding: 20px;
+    }
+.tittle--second {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+     font-size: 24px;
+    color: #CCC;
+     padding-bottom: 40px;
+    }
+.button {
+    background-color: #3870B3;
+    box-shadow: 0px 0px 5px white;
+    color: #FFF;
+    border-radius: 15px;
+    border: 0;
+    padding: 2px;
+     width: 200px;
+     height: 50px;
+    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    }
+.button:hover {
+    background-color: #000;
+}
+.body--right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.tittle--tree {
+    font-size: 20px;
+    font-family: 'Sarala';
+    color: #FFF;
+}
+.paragraf {
+    color:#fff ;
+    font-size: 16px;
+}
+.body--image {
+width: 300px;
+height: 200px;
+padding: 20px 20px;
+margin-left: 100px;
+background-color: #3870B3;
+opacity: 40%;
+box-shadow: 1px 0px 10px;
+border-radius: 50%;
+}
+.body--site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer {
+    border-top: 0.4px solid white;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: 'Sarala';
+    font-size: 10px;
+    justify-content: space-around;
+    gap: 350px;
+}
+.footer--image {
+    width: 80px;
+}
